@@ -13,10 +13,8 @@ Finally, A big thank you to Wes Bos for creating a fantastic Javascript tutorial
 So buckle up guys, its time to get past the
 
 ```javascript
-// index.js
 let greetings = "Hello World";
 console.log(greetings)
 
 ```
-
-....build real cool apps. :)
+....build really cool apps. :)
