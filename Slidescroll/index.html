@@ -61,7 +61,7 @@
 
     function checkSlide() {
      sliderImages.forEach(slideImage => {
-        const slideInAt = (window.scrollY + window.innerHeight) - slideImage.height / 100 ;
+        const slideInAt = (window.scrollY + window.innerHeight) - slideImage.height / 200;
     
 
         const imageBottom = slideImage.offsetTop + slideImage.height;
@@ -114,18 +114,17 @@
     }
 
     .slide-in{
-        transform:translateY(40%) scale(0.95);
+        transform:translateY(40%) scale(0.8);
         opacity:0;
-        transition:all .5s;
     }
     .one .slide-in{
-        transition-delay: .5s;
+        transition: all .3s;
     }
     .two .slide-in{
-        transition-delay: .7s;
+        transition: all .6s;
     }
     .three .slide-in{
-        transition-delay: .9s;
+        transition: all .9s;
     }
     .slide-in.active {
       opacity:1;
