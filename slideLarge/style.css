@@ -1,0 +1,28 @@
+.heroWrapper{
+    position:relative;
+    clear:both;
+    width:100%;
+    max-width:1200px;
+    position:relative;
+    margin:0 auto;
+}
+  
+  li{
+    float:left;
+    width:31.3%;
+    height:150px;
+    background-color:yellow;
+    border:1px solid #ccc;
+    list-style:none;
+    transition: all 0.4s ease;
+  }
+
+  .red{
+    background:red;
+    width:75%;
+  }
+  .shrink{
+      width:10%;
+  }
+
+
